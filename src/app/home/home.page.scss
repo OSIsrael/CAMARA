@@ -1,27 +1,36 @@
-#container {
-  text-align: center;
 
+ion-icon{
+  color: rgb(255, 255, 255);
+}
+.tom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+  width: 70px; 
+  height: 70px; 
+}
+
+.tom ion-icon {
   position: absolute;
-  left: 0;
-  right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.tom ion-icon[name="ellipse"] {
+  font-size: 48px; 
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.tom ion-icon[name="ellipse-outline"] {
+  font-size: 60px; 
+}
+.tom{
+  --background:transparent;
 }
 
-#container a {
-  text-decoration: none;
+.tom1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
